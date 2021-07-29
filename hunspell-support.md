@@ -34,7 +34,7 @@ line) and the `.info` file that's already part of LanguageTool. You can
 call the tool like this to write the output to `/tmp/output.dict`:
 
 
-    java -cp languagetool.jar org.languagetool.tools.SpellDictionaryBuilder de-DE /path/to/dictionary.txt org/languagetool/resource/en/hunspell/en_US.info - -o /tmp/output.dict
+    java -cp languagetool.jar org.languagetool.tools.SpellDictionaryBuilder -i /path/to/dictionary.txt -info org/languagetool/resource/en/hunspell/en_US.info -o /tmp/output.dict
 
 
 To export an existing dictionary as plain text you can use this command:
